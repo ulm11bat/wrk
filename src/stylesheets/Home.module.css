@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/Screenshot\ 2023-05-16\ 232331.png);
+    background-size: cover;
+}
+.first{
+    background-image: url(../assets/Untitled\ \(7\).png);
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+.second{
+    width: 100vw;
+    height: 1350px;
+    border: 1px solid black;
+    background-image: url(../assets/Untitled\ \(8\).png);
+    background-size: cover;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    font-style: oblique;
+    padding: 0 0 150px 600px;
+}
+.second p{
+    margin: 0 0 20px 0;
+}
+.third{
+    width: 100vw;
+    height: 1347px;
+    display: flex;
+    flex-direction: row;
+}
+.scene{
+    width: 50vw;
+    height: 1347px;
+    overflow: clip;
+}
+.scene img{
+     animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.story{
+    width: 50vw;
+    height: 1347px;
+    background-color: #094c9e;
+    color: white;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 0 100px;
+    font-style: oblique;
+}
+.fourth{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+/* .fourth h1{
+    margin: 100px;
+} */
+.profilepic{
+    width: 110px;
+    height: 110px;
+    /* border-radius: 100%; */
+    background-image: url(../assets/staff_shinkai_ph.png);
+}
+.picstext{
+    width: 800px;
+}
+.bttn{
+    /* padding: 100px 0 0 100px; */
+    width: 700px;
+    height: 70px;
+     display: flex;
+    flex-direction: row;
+}
+.btn{
+    width: 300px;
+    height: 70px;
+    border: 1px solid white;
+    margin: 25px;
+   border-radius: 15px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20PX;
+}
+.bttn1{
+    width: 300px;
+    height: 70px;
+    border: 1px solid white;
+    margin: 50px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    font-size: 20PX;
+}
+.footer{
+    width: 100vw;
+    height: 400px;
+    background-color: #094c9e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
